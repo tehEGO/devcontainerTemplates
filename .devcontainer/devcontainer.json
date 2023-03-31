@@ -1,0 +1,8 @@
+{
+	"name": "project",
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},
+//	"postCreateCommand": "git config --global --add safe.directory /workspaces/project && mkdocs serve",
+	"appPort": [ "5557:5556" ]
+}
